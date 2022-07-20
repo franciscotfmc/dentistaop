@@ -1,0 +1,74 @@
+#conceito {
+  font-size: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  background-color: $roxo;
+
+  .container {
+    display: flex;
+    color: white;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+
+    div {
+      flex: 1
+    }
+
+    .tagline {
+      position: relative;
+      z-index: 99;
+      padding-left: 20px;
+      padding-right: 20px;
+
+      .logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        img {
+          padding-top: 40px;
+        }
+      }
+
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+
+      h1 {
+        font-size: 2em;
+
+        span {
+          display: block;
+          margin-bottom: 5px;
+        }
+      }
+
+      p {
+        font-size: 1.25rem;
+        max-width: 350px;
+        margin: 0 0 40px 0;
+      }
+
+      a {
+        margin-bottom: 20px;
+      }
+    }
+
+    @media only screen and (max-width: 768px) {
+      .tagline {
+        h1 {
+          font-size: 1.8em;
+        }
+
+        .actions {
+          text-align: center;
+        }
+      }
+    }
+  }
+}

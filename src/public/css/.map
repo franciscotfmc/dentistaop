@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "sourceRoot": "",
+  "sources": [
+    "../assets/scss/index.scss"
+  ],
+  "names": [],
+  "mappings": "AACE;EACE",
+  "file": "css"
+}

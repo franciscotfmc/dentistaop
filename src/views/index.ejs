@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta name="description" content="Os melhores dentistas em Ouro Preto e região" />
+  <meta property="image" content="/public/img/querymeta.png" />
+  <link rel="icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/css/<%= cssIndex %>">
+  <title>
+    <%= title %>
+  </title>
+
+  <% if(GA) { %>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K65XDXS8W3"></script>
+    <script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-K65XDXS8W3');</script>
+    <% } %>
+</head>
+
+<body>
+  <main>
+    <%- include('partials/main'); %>
+  </main>
+
+  <script src="/js/<%= jsIndex %>"></script>
+</body>
+
+</html>
