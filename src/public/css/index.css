@@ -531,6 +531,7 @@ body #conceito .container .tagline p {
 }
 body #conceito .container .tagline a {
   margin-bottom: 20px;
+  margin-right: 10px;
 }
 @media only screen and (max-width: 768px) {
   body #conceito .container .tagline h1 {
